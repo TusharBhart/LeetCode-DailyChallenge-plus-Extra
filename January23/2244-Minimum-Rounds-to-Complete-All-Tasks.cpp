@@ -7,7 +7,7 @@ public:
         int ans = 0;
         for(auto i : m) {
             if(i.second == 1) return -1;
-            else ans += ceil((double) i.second / 3);
+            ans += ceil((double) i.second / 3);
         }
         return ans;
 
